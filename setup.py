@@ -6,7 +6,7 @@ import setuptools
 
 setuptools.setup(
     name="roomservice",
-    version="0.0.6",
+    version="0.0.7",
     author="Rory Murdock",
     author_email="rmurdock@woolworths.com.au",
     description="A Library for interacting with Google Sheets, changing your sheets",

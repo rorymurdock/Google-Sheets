@@ -11,6 +11,7 @@ class sheets:
 
         if not os.path.isfile(secret_file):
             print("No API credentials found")
+            print("%s/%s" % (os.getcwd(), secret_file))
             sys.exit()
 
         credentials = service_account.Credentials.from_service_account_file(secret_file, scopes=scopes)
